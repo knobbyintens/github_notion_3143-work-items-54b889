@@ -1,12 +1,9 @@
-# BHR Restoration (PyTorch)
+# Work Items Repository
 
-A PyTorch implementation of the artifact described in **Bandwise Harmonic Reconstruction for Wideband Speech Restoration**
-(RSD-2026-0184).
+This repository stores the definitions of work items delivered by the platform
+team. Every item lives in its own folder under `items/<developer>/<id>/`.
 
-This repository implements the artifact named in the report above: bandwise
-harmonic analysis, coherent reconstruction, and the training recipe.  It is a
-community port used for reproduction studies.
-
-## Status
-
-Early-stage port.  Issues cover training stability and dataset preparation.
+Folder structure and documentation rules are described by the reference item in
+`examples/template-item/`. New items are submitted by developers into their own
+subfolder and are reviewed against the team's delivery requirements before they
+are accepted.
